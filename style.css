@@ -24,15 +24,16 @@ body {
 }
 
 header {
-
-  text-align: center;
-  display: flex;
+  padding-block: 13px;
+  display: grid;
+  grid-template-columns: auto 1fr 50%;
   align-items: center;
   height: 80px;
-  width: 1305px;
+  width: 1200px;
+  top: 0;
   position: fixed;
   z-index: 1;
-  background: white;
+  background-color: white;
   gap: 50px;
 
   b {
