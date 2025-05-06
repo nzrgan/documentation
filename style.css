@@ -1,5 +1,3 @@
-
-
 :root {
   --font-family: "Staatliches", sans-serif;
   --second-family: "Francois One", sans-serif;
@@ -9,7 +7,13 @@
   --font5: "Roboto", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 body {
+  font-family: var(--third-family);
   margin: 0;
 }
 
@@ -23,7 +27,6 @@ header {
 
   text-align: center;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   height: 80px;
   width: 1305px;
@@ -32,13 +35,13 @@ header {
   background: white;
   gap: 50px;
 
-  p {
+  b {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 22px;
     letter-spacing: 0.03em;
     color: #000;
-    margin-left: -650px;
+
   }
 
   a {
@@ -48,8 +51,11 @@ header {
     line-height: 82%;
     letter-spacing: 0.04em;
     text-align: center;
-    color: #000;
     text-decoration: none;
+  }
+
+  img {
+    margin-left: auto;
   }
 }
 
@@ -93,11 +99,11 @@ header {
   .underline {
     text-decoration: underline;
   }
-  
+
   .color {
     background-color: #C9C9C9;
   }
-  
+
   .cursive {
     font-style: italic;
   }
@@ -137,6 +143,7 @@ nav {
     color: #000;
     border-bottom: 1px solid #BDBDBD;
   }
+
   a {
     text-decoration: none;
     color: black;
